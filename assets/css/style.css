@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+:root {
+   --color-01: #F24B59;
+   --color-02: #F24B6A;
+   --color-03: #F2C2CB;
+   --color-04: #203A40;
+
+   --color-dark: #171d19;
+
+   --font-padrao: 'Inter', Arial, sans-serif;
+   --font-secundaria: Arial, sans-serif;
+}
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   height: auto;
+   font-family: var(--font-padrao);
+}
